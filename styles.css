@@ -92,7 +92,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 40vh;
+    height: 50vh;
 }
 
 h2 {
@@ -133,6 +133,10 @@ h2 {
 /* Quote */
 
 .quote-block {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50vh;
 }
 
@@ -142,4 +146,14 @@ h2 {
     font-weight: 200;
     font-style: italic;
     line-height: 1;
+}
+
+.author {
+    margin-top: 16px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.container {
+    width: 70%;
 }
