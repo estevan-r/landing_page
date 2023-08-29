@@ -8,6 +8,7 @@
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 ul, li {
@@ -69,10 +70,10 @@ h1 {
     font-weight: 800;
     color: #f9faf8;
     line-height: 1;
+    margin-bottom: 16px;
 }
 
 .info {
-    margin-top: 16px;
     color: #e5e7eb;
 }
 
@@ -156,4 +157,34 @@ h2 {
 
 .container {
     width: 70%;
+}
+
+/* CTA */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 200px;
+    border-radius: 12px;
+    padding: 0px 80px;
+}
+
+h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sign-up-inv {
+    border: 2px solid #f9faf8;
 }
