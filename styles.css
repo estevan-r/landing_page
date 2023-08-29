@@ -165,7 +165,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 50vh;
 }
 
 .cta-box {
@@ -187,4 +187,18 @@ h3 {
 
 .sign-up-inv {
     border: 2px solid #f9faf8;
+}
+
+/* Footer */
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .info {
+    font-weight: 200;
 }
